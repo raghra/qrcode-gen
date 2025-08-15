@@ -6,7 +6,7 @@ use chillerlan\QRCode\QRCode;
 use chillerlan\QRCode\QROptions;
 
 $options = new QROptions([
-        'version'    => 40, // QR code version (1-40)
+        'version'    => 10, // QR code version (1-40)
         'outputType' => QRCode::OUTPUT_IMAGE_PNG, // Output format (e.g., PNG, SVG, JPG)
         'eccLevel'   => QRCode::ECC_H, // Error Correction Level (L, M, Q, H)
         'scale'      => 10, // Scale of the QR code modules in pixels
